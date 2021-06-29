@@ -1,0 +1,4 @@
+#!/bin/sh -e
+java -jar httpcore.jar
+${PREFIX}autoflake --recursive databases tests
+
